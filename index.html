@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magyar Uralkodók Táblázata</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -62,19 +63,24 @@
 
     <form id="form" action="#">
         <label for="uralkodo_nev">Uralkodó neve:</label><br>
-        <input type="text" id="uralkodo_nev" name="uralkodo_nev"><br><br>
+        <input type="text" id="uralkodo_nev" name="uralkodo_nev">
+        <span class="hibauzenet" id="nev-hiba"></span><br><br>
 
         <label for="esemeny1">Első esemény:</label><br>
-        <input type="text" id="esemeny1" name="esemeny1"><br><br>
+        <input type="text" id="esemeny1" name="esemeny1">
+        <span class="hibauzenet" id="esemeny1-hiba"></span><br><br>
 
         <label for="evszam1">Első esemény évszáma:</label><br>
-        <input type="text" id="evszam1" name="evszam1"><br><br>
+        <input type="text" id="evszam1" name="evszam1">
+        <span class="hibauzenet" id="evszam1-hiba"></span><br><br>
 
         <label for="esemeny2">Második esemény:</label><br>
-        <input type="text" id="esemeny2" name="esemeny2"><br><br>
+        <input type="text" id="esemeny2" name="esemeny2">
+        <span class="hibauzenet" id="esemeny2-hiba"></span><br><br>
 
         <label for="evszam2">Második esemény évszáma:</label><br>
-        <input type="text" id="evszam2" name="evszam2"><br><br>
+        <input type="text" id="evszam2" name="evszam2">
+        <span class="hibauzenet" id="evszam2-hiba"></span><br><br>
 
         <button>Hozzáadás</button>
     </form>
